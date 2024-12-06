@@ -1,7 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Dongle:wght@300&display=swap');
+@font-face {
+    font-family: 'Jost';
+    src: url(../fonts/Jost.ttf);
+}
+@font-face {
+    font-family: 'Dongle';
+    src: url(../fonts/Dongle.ttf);
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    src: url(../fonts/Merriweather-bold.ttf);
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/Merriweather-bolditalic.ttf);
+}
+@font-face {
+    font-family: 'Cardo';
+    src: url(../fonts/Cardo.ttf);
+}
+@font-face {
+    font-family: 'Cardo';
+    font-style: italic;
+    src: url(../fonts/Cardo-italic.ttf);
+}
 
 html {
     background-color: #E5E2E2;
@@ -109,6 +133,7 @@ footer > p > a {
     justify-content: center;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-weight: bold;
     letter-spacing: 2px;
     font-size: 25px;
 }
